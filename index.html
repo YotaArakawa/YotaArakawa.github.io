@@ -14,54 +14,65 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 </head> 
 
 <body> 
-<h1>乗りログ</h1>
-<form action="/save" method="post"> 
-<table> 
-    <tr> 
-        <td> 
-            <label for="start">出発地</label><br/> 
-            <input id="start" type="text" name="start"/> 
-        </td> 
-        <td> 
-            <label for="finish">目的地</label><br/> 
-            <input id="finish" type="text" name="finish"/> 
-        </td> 
-        <td> 
-            <br/> 
-            <button class="btn btn-primary" >追加</button> 
-        </td> 
-    </tr> 
+<div class="container-fluid">
+<div class="p-3 mb-2 bg-light text-secondary">
+<div class="container">
 
-    <tr> 
-        <td colspan="3"> 
-            <label for="memo">メモ</label> 
-            <textarea id="memo" name="memo"></textarea> 
-        </td> 
-    </tr>
-</table>
-</form> 
 
-<h3>乗り物一覧</h3> 
-<table> 
-    <tr> 
-        <th>出発</th> 
-        <th>到着</th> 
-        <th>日時</th> 
-        <th>メモ</th> 
-    </tr>
-    <tr> 
-        <td>御嵩山</td> 
-        <td>片瀬江ノ島</td>
-        <td>2017-10-31</td> 
-        <td>サーフィン</td> 
-    </tr>
-    <tr> 
-        <td> 御嵩山</td>
-        <td>代々木</td>
-        <td>2017-10-31</td> 
-        <td>BPStudy</td> 
-    </tr> 
-</table> 
- 
+<h1>
+<span class="badge badge-secondary">
+MyProfile
+</span>
+</h1>
+
+<div class="jumbotron">
+  <p class="display-4">こんにちは。荒川陽太のマイページです</p>
+  <hr class="my-4">
+
+
+<h3>
+<span class="badge badge-secondary">
+詳細
+</span>
+</h3>
+
+<div class="card-group">
+  <div class="card">
+    <img src="https://free-japan-map.com/material/123-free-japan-map.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">東京に住んでます</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.silhouette-illust.com/wp-content/uploads/2016/11/16330-300x300.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">ゲームが好きです</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.silhouette-illust.com/wp-content/uploads/2016/09/11206-300x300.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">休学してます</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</div>
+</div>
+</div>
 </body> 
 </html> 
